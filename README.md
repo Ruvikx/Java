@@ -1,12 +1,10 @@
 Ejercicio validación DNI y NIE
 ==============================
----
 
 Este ejercicio desarrollado en **Java** comprueba la validez sintáctica de un DNI o un NIE mediante expresiones regulares y la validez legal en función de la letra del documento.
 
 Contenidos
 ----------
----
 
 1. Una clase "DNI" que contiene:
     + Atributos
