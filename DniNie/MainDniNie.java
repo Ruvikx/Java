@@ -11,7 +11,7 @@ public class MainDniNie {
 		
 		//--------------------------------TEST DNI---------------------------------
 		
-		String regexDni = "\\b\\d{8}[A-Z&&[^IÑOU]]\\b";
+		String regexDni = "^\\d{8}[A-Z&&[^IÑOU]]";
 		Pattern pDni = Pattern.compile(regexDni);
 		
 		//---------------------------TEST DNI CORRECTO-----------------------------
@@ -64,7 +64,7 @@ public class MainDniNie {
 		
 		//--------------------------------TEST NIE---------------------------------
 		
-		String regexNie = "\\b[XYZ]\\d{7}[A-Z&&[^IÑOU]]\\b";
+		String regexNie = "^[XYZ]\\d{7}[A-Z&&[^IÑOU]]";
 		Pattern pNie = Pattern.compile(regexNie);
 		
 		//---------------------------TEST NIE CORRECTO-----------------------------
